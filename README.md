@@ -107,6 +107,7 @@ GET /GetCurrentTime?timeZone=Asia/Jakarta
 ## 👨‍💻 Notes
 - Make sure your database and environment variables are correctly configured before running the server.
 - `timeZone` parameter should follow the format supported by [TimeAPI.io](https://timeapi.io/) (e.g., `Asia/Jakarta`, `Europe/London`).
+- ⚠️ **Note:** The TimeAPI endpoint sometimes cannot be reached due to a TLS handshake timeout. If this happens, please **re-run the server and retry the request.**
 
 ---
 
