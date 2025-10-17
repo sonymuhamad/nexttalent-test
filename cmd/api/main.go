@@ -28,6 +28,8 @@ func main() {
 	log.Printf("Using timezone %s\n", time.Local.String())
 	log.Printf("Starting api server on Port %d\n", cfg.APIPort)
 
+	fmt.Println("hello worlds")
+
 	go func() {
 		ln, _ := net.Listen("tcp", fmt.Sprintf(":%d", cfg.APIPort))
 
